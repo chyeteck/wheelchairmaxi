@@ -727,22 +727,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin-left: 15px;
 }
 
-.album {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #f7f7f7;
-}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
 
-.card {
-  float: left;
-  width: 25%;
-  border: 0;
-}
-
-.card > img {
-  max-width: 100%;
-}
-
-.card-text {
-  font-size: 85%;
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
