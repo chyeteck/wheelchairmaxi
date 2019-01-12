@@ -27,7 +27,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
-
+	<style>
+	#honeypot {
+		display: none; /*makes the field not visible to humans*/
+	}
+	</style>
   </head>
 
   <body id="page-top">
@@ -140,6 +144,11 @@
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">BOOK NOW</button>
                 </div>
               </div>
+			  
+			  <!--input id must be honeypot or else it wont work-->
+			  <label class="sr-only">Keep this field blank</label>
+			  <input id="honeypot" type="text" name="honeypot" value="" />
+			  <!--the rest of your form-->
 			  
 			  <div style="display:none" class="thankyou_message">
 				 <!-- You can customize the thankyou message by editing the code below -->
