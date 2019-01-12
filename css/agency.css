@@ -739,7 +739,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding-left: 0;
   }
 }
-
+.imgwidth{
+width:100%;
+}
+	
 .toptext{
 	position: relative;
 	text-align: center;
@@ -750,6 +753,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .primary {
   background-color: #db3076;
   border-color: #db3076;
+  padding:10px;
 }
 .whitetext{
 	color:white;
