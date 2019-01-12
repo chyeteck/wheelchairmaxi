@@ -13,11 +13,13 @@ p {
 }
 
 a {
-  color: #db3076;
+  color: white;
+  text-decoration:none;
 }
 
 a:hover {
-  color: #cf30db;
+  color: yellow;
+  text-decoration:none;
 }
 
 .text-primary {
@@ -736,4 +738,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.toptext{
+	position: relative;
+	text-align: center;
+	left: 50%;
+	transform:translate(-50%,0%);
+}
+
+.primary {
+  background-color: #db3076;
+  border-color: #db3076;
+}
+.whitetext{
+	color:white;
 }
