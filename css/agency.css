@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: yellow;
+  color: #fec810;
   text-decoration:none;
 }
 
@@ -88,12 +88,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #db3076;
+  background:  #76db30;
   text-shadow: none;
 }
 
 ::selection {
-  background: #db3076;
+  background:  	#76db30;
   text-shadow: none;
 }
 
